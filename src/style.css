@@ -1,0 +1,107 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+
+
+#registration{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 2px blue; */
+    margin: 50px;
+}
+
+#form{
+
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+   padding: 20px;
+    
+    width: 100%;
+    align-items: center;
+    background-color: rgb(28, 57, 58);
+}
+
+#sub{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.submit:hover{
+    box-shadow: 2px 2px 5px 5px rgb(20, 18, 18);
+}
+label{
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+input{
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+.box{
+    display: flex;
+   
+    padding: auto 20px;
+    justify-content: space-between;
+    width: 75%;
+
+
+}
+
+.container{
+  
+    width: 100%;
+    overflow-y: scroll;
+    border:2px solid green;
+    background-color: beige;
+}
+table{
+    width: 100%;
+  
+}
+
+td{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+     
+}
+
+
+.modify{
+padding: 1px 5px;
+background-color: rgb(17, 0, 255);
+border-radius: 15px;
+border: 2px solid rgb(2, 2, 180);
+color: white;
+margin-top: 6px;
+
+}
+.remove{
+    padding: 1px 5px;
+    background-color: rgb(214, 3, 3);
+    border-radius: 15px;
+    border: 2px solid rgb(2, 2, 180);
+    color: white;
+    margin-left: 5px;
+}
+
+h1{
+    margin:auto;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(38, 16, 87);
+    font-size: larger;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <h1>STUDENT REGISTRATION SYSTEM</h1>
+    <h3> The system allows students to register their details such as Name, Id, Email and Number. Additionally, it provides functionalities for modifying and removing records</h3>
+    <div id='registration'>
+
+        <form id="form" class="flex justify-between  ">
+            <!-- <form action=""> -->
+        
+                <div class="sname  box">
+        
+                    <label for="sname">student name :</label>
+                    <input id="sname" type="text" autocomplete="off" >
+        
+                </div>
+        
+                <div class="stuId box">
+                    <label for="stuId">Id :</label>
+                <input id="stuId" type="number" autocomplete="off" >
+                    
+                </div>
+        
+                <div class="email box">
+                    <label for="email">Email Adress :</label>
+                <input id="email" type="email" autocomplete="off" >
+                    
+                </div>
+                <div class="num box">
+                    <label for="num">Contact number :</label>
+                <input id="num" type="number" autocomplete="off" >
+                    
+                </div>
+                <div class="submit ">
+                    <button id="sub" >submit</button>
+        
+                </div>
+                
+                   
+                 <!--inp submit will reload page after submit so dont use type="sub' in btn and <inp type="submit"  value="submit"> -->
+        
+        </form>
+        
+        
+        
+        
+        
+        <div class="container">
+            <table>
+                <!-- <tr>
+                    <th>NAME</th>
+                    <th>ID</th>
+                    <th>EMAIL</th>
+                    <th>NUMBER</th>
+                </tr> -->
+                
+
+                
+            </table>
+        
+        </div>
+
+    </div>
+
+
+
+<script src="./script.js"></script>    
+
+</body>
+</html>
